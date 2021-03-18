@@ -1,0 +1,95 @@
+<!doctype HTML>
+<html>
+   <head>
+       <link href="index.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+    <div class="html-header"><h1>Form input types</h1></div>
+    <div id="input-types">
+     <h1 class="mainh1">Form input types</h1>
+     <a href="index.html"><i>click here to go back</i></a>
+     
+        <h5>In html you have many different form input styles.
+     This guide will show<br> you 5 different types 
+ with a submit button to submit your form.</h5>
+ <strong>A form: A html form is a container for different types of input
+      elements, such as:<br> text fields, checkboxes, radio buttons, submit buttons, etc.</strong><br><br>
+      <i>A form has an input and a label element the label defines what the input is<br>
+     the input creates a type of form like a text field or a checkbox.<br>
+ The for attribute of the label element should show for which input id<br>
+the label is defined. </i><br><br>
+     <div class="differentInputTypes">
+         <div class="userAndPassword">
+             <form>
+                 <label for="tfield"><br>The box below is a textbox
+                     like<br> a username input</label><br>
+                 <input type="text" id="tfield" name="tfield"><br>
+                 <label for="tfieldpass"><br>Below you see a password input
+                     that<br> goes together with the username input.</label><br>
+                 <input type="password" id="tfieldpass" name="tfieldpass"><br><br>
+                 <input type="submit" value="This is a submit button">
+             </form> 
+         </div>
+         <div class="radioButton">
+          <form>
+              <p>This is a radio type input <br> you can click on one box at<br> the time!
+             It is common for like interviews <br>
+         What kind of food do you like?</p>
+              
+              <input type="radio" id="kebab" name="food" value="kebab">
+              <label for="kebab">Kebab</label><br>
+              <input type="radio" id="mihoen" name="food" value="mihoen">
+              <label for="mihoen">Mihoen</label><br>
+              <input type="radio" id="cheese" name="food" value="cheese">
+              <label for="cheese">cheese</label><br>
+              <input type="radio" id="chicken" name="food" value="chicken">
+              <label for="chicken">chicken</label><br>
+              <input type="radio" id="lasagna" name="food" value="lasagna">
+              <label for="lasagna">lasagna</label><br><br>
+              <input type="submit" value="Click after chosing">
+          </form>
+         </div>
+     </div>
+     <div class="moreDifferentInputTypes">
+         <h5><i>Below here you see 'range' as<br> a value of the 'type' attribute<br>
+         inside of the 'input' element.<br>
+     You can use this type of form for example<br>
+ as a volumebar!</i></h5>
+             <label for="volume">0</label>
+             <input type="range" id="volume" name="volume" min="0" max="100">
+             <label for="volume">100</label>
+         
+     </div>
+     <div class="lastTwoInputTypes">
+         <div class="checkboxx">
+             <form>
+                 <h4>What vehicles do you have?<br>
+                     With the checkbox input type you can<br>
+                     select multiple options!
+                 </h4>
+                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                 <label for="vehicle1"> I have a bike  ||</label>
+                 <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                 <label for="vehicle2"> I have a car</label><br>
+                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                 <label for="vehicle3"> I have a boat  ||</label>
+                 <input type="checkbox" id="novehicle" name="novehicle" value="None">
+                 <label for="novehicle">I have no vehicle</label><br>
+                 <input type="submit" value="submit choices"><br><br>
+               </form>
+               
+         </div>
+         <div class="birthdayy">
+             <form>
+                 <h4><i>With this form you can fill in<br>
+                 the date of birth.</i></h4>
+                 <label for="birthday">Birthday:</label>
+                 <input type="date" id="birthday" name="birthday">
+                 <input type="submit" value="submit">
+               </form>
+         </div>
+     </div>
+     </div>
+   </body>
+</html>

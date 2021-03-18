@@ -112,6 +112,11 @@ margin-bottom: 5px;
     border-right: solid 1px black;
 }
 
+#Text-styles .h22 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
  .dataInTextStyles {
      display: flex;
      justify-content: space-around;
@@ -122,18 +127,20 @@ margin-bottom: 5px;
      border: solid 2px black;
      display: inline-flex;
      flex-direction: column;
-     width: 150px;
+     width: 25%;
      height: 460px;
      background-color: rgb(149, 209, 149);
+     justify-content: center;
  }
 
  .sti {
      border: solid 2px black;
      display: inline-flex;
      flex-direction: column;
-     width: 150px;
+     width: 25%;
      height: 460px;
      background-color: rgb(149, 209, 149);
+     justify-content: center;
  }
 
  .stiBigger {
@@ -146,8 +153,9 @@ margin-bottom: 5px;
      display: inline-flex;
      flex-direction: column;
      border: solid 2px black;
-     width: 150px;
+     width: 25%;
      background-color: rgb(149, 209, 149);
+     justify-content: center;
  }
 
 
@@ -164,6 +172,12 @@ margin-bottom: 5px;
     height: 75px;
     color: white;
     width: 100%;
+}
+
+.css-header {
+    background-color:  rgb(228, 70, 167, 0.8);
+    height: 75px;
+    color: white; 
 }
 
 #colors {
@@ -218,7 +232,7 @@ margin-bottom: 5px;
 
  .normalcolors .green {
      display: inline-flex;
-     width: 100px;
+     width: 18%;
      height: 100px;
      background-color: green;
      justify-content: center;
@@ -228,7 +242,7 @@ margin-bottom: 5px;
 
  .normalcolors .red {
      display: inline-flex;
-     width: 100px;
+     width: 18%;
      height: 100px;
      background-color: red;
      justify-content: center;
@@ -238,7 +252,7 @@ margin-bottom: 5px;
 
  .normalcolors .blue {
      display: inline-flex;
-     width: 100px;
+     width: 18%;
      height: 100px;
      background-color: blue;
      justify-content: center;
@@ -248,7 +262,7 @@ margin-bottom: 5px;
 
  .hslcolors .green {
     display: inline-flex;
-    width: 100px;
+    width: 18%;
     height: 100px;
     background-color: hsla(110, 70%, 30%);
     justify-content: center;
@@ -258,7 +272,7 @@ margin-bottom: 5px;
 
 .hslcolors .red {
     display: inline-flex;
-    width: 100px;
+    width: 18%;
     height: 100px;
     background-color: hsla(0, 100%, 50%);
     justify-content: center;
@@ -268,7 +282,7 @@ margin-bottom: 5px;
 
 .hslcolors .blue {
     display: inline-flex;
-    width: 100px;
+    width: 18%;
     height: 100px;
     background-color: hsla(180, 80%, 20%);
     justify-content: center;
@@ -278,7 +292,7 @@ margin-bottom: 5px;
 
 .rgbcolors .green {
     display: inline-flex;
-    width: 100px;
+    width: 18%;
     height: 100px;
     background-color: rgb(6, 95, 6);
     justify-content: center;
@@ -288,7 +302,7 @@ margin-bottom: 5px;
 
 .rgbcolors .red {
     display: inline-flex;
-    width: 100px;
+    width: 18%;
     height: 100px;
     background-color: rgb(240, 11, 11);
     justify-content: center;
@@ -298,7 +312,7 @@ margin-bottom: 5px;
 
 .rgbcolors .blue {
     display: inline-flex;
-    width: 100px;
+    width: 18%;
     height: 100px;
     background-color: rgb(21, 21, 247);
     justify-content: center;
@@ -308,6 +322,9 @@ margin-bottom: 5px;
 
 #input-types {
     background-color: rgba(94, 204, 255, 0.6);
+    width: 100%;
+    border-right: solid 1px black;
+    height: 1000px;
 }
 
 .differentInputTypes {
@@ -319,10 +336,101 @@ margin-bottom: 5px;
     display: inline-flex;
     border: solid 1px black;
     background-color: rgb(149, 209, 149);
+    width: 40%;
+    justify-content: center;
 }
 
 .radioButton {
     display: inline-flex;
     border: solid 1px black;
     background-color: rgb(149, 209, 149);
+    width: 40%;
+    justify-content: center;
 }
+
+.moreDifferentInputTypes {
+    border: solid 2px black;
+    margin: 50px auto;
+    width: 50%;
+    background-color: rgb(149, 209, 149);
+}
+
+.lastTwoInputTypes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkboxx {
+    display: inline-flex;
+    border: solid 2px black;
+    height: 180px;
+    align-items: center;
+    background-color: rgb(149, 209, 149);
+    width: 40%;
+    justify-content: center;
+}
+
+.birthdayy {
+    display: inline-flex;
+    border: solid 2px black;
+    height: 180px;
+    align-items: center;
+    background-color: rgb(149, 209, 149);
+    width: 40%;
+    justify-content: center;
+}
+
+#font-sizes {
+    background-color: rgba(94, 204, 255, 0.6);
+    width: 100%;
+    border-left: solid 1px black;
+    height: 1000px;
+}
+
+.differentsizes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.differentsizes1 {
+    display: inline-flex;
+    flex-direction: column;
+    border: solid 1px black;
+    background-color: rgb(149, 209, 149);
+    width: 40%;
+}
+
+.differentsizes2 {
+    display: inline-flex;
+    flex-direction: column;
+    border: solid 1px black;
+    background-color: rgb(149, 209, 149);
+    width: 40%;
+}
+
+.px1 {font-size: 1px;}
+.px2 {font-size: 2px;}
+.px4 {font-size: 4px;}
+.px6 {font-size: 6px;}
+.px8 {font-size: 8px;}
+.px10 {font-size: 10px;}
+.px12 {font-size: 12px;}
+.px14 {font-size: 14px;}
+.px16 {font-size: 16px;}
+.px18 {font-size: 18px;}
+.px20 {font-size: 20px;}
+.px22 {font-size: 22px;}
+.px24 {font-size: 24px;}
+.px26 {font-size: 26px;}
+.px28 {font-size: 28px;}
+.px30 {font-size: 30px;}
+.px32 {font-size: 32px;}
+.px34 {font-size: 34px;}
+.px36 {font-size: 36px;}
+.px38 {font-size: 38px;}
+.px40 {font-size: 40px;}
+.px42 {font-size: 42px;}
+.px44 {font-size: 44px;}
+.px46 {font-size: 46px;}
+.px48 {font-size: 48px;}
+.px50 {font-size: 50px;}
