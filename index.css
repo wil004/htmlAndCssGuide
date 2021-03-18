@@ -90,19 +90,21 @@ margin-bottom: 5px;
     align-content: center;
 }
 
-.html-content .html-header {
+.html-header {
     background-color:  rgb(228, 70, 167, 0.8);
     height: 75px;
     color: white;
 }
 
-#Text-styles .mainh1 {
+.mainh1 {
     background-color: rgb(149, 209, 149);
     height: 40px;
     width: 300px;
     margin: 0 auto;
     margin-top: 20px;
 }
+
+
 
 #Text-styles {
     height: 800px;
@@ -166,14 +168,6 @@ margin-bottom: 5px;
 
 #colors {
     height: 150px;
-}
-
-#colors .mainh1 {
-    background-color: rgb(149, 209, 149);
-    height: 40px;
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 20px;
 }
 
 #colors, 
@@ -310,4 +304,25 @@ margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     font-size: 22px;
+}
+
+#input-types {
+    background-color: rgba(94, 204, 255, 0.6);
+}
+
+.differentInputTypes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.userAndPassword {
+    display: inline-flex;
+    border: solid 1px black;
+    background-color: rgb(149, 209, 149);
+}
+
+.radioButton {
+    display: inline-flex;
+    border: solid 1px black;
+    background-color: rgb(149, 209, 149);
 }

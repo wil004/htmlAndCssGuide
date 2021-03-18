@@ -14,7 +14,7 @@
        <ul>
            <li><h2>html guide</h2></li>
            <li><a href=#Text-styles>Text styles</a></li>
-           <li><a>Input types</a></li>
+           <li><a>Form input types</a></li>
            <li><a>tables & lists</a></li>
         </ul>
     </div>
@@ -80,9 +80,50 @@
             </div>
            </div>
            </div>
-           <div id="input-types">
-               <h1>input types</h1>
-        </div>
+               <div class="html-header"><h1>Form input types</h1></div>
+               <div id="input-types">
+                   <h5>In html you have many different form input styles.
+                This guide will show<br> you 5 different types 
+            with a submit button to submit your form.</h5>
+            <strong>A form: A html form is a container for different types of input
+                 elements, such as:<br> text fields, checkboxes, radio buttons, submit buttons, etc.</strong><br><br>
+                 <i>A form has an input and a label element the label defines what the input is<br>
+                the input creates a type of form like a text field or a checkbox.<br>
+            The for attribute of the label element should show for which input id<br>
+        the label is defined. </i><br><br>
+                <div class="differentInputTypes">
+                    <div class="userAndPassword">
+                        <form>
+                            <label for="tfield"><br>The box below is a textbox
+                                like<br> a username input</label><br>
+                            <input type="text" id="tfield" name="tfield"><br>
+                            <label for="tfieldpass"><br>Below you see a password input
+                                that<br> goes together with the username input.</label><br>
+                            <input type="password" id="tfieldpass" name="tfieldpass"><br><br>
+                            <input type="submit" value="This is a submit button">
+                        </form> 
+                    </div>
+                    <div class="radioButton">
+                     <form>
+                         <p>This is a radio type input <br> you can click on one box at<br> the time!
+                        It is common for like interviews <br>
+                    What kind of food do you like?</p>
+                         
+                         <input type="radio" id="kebab" name="food" value="kebab">
+                         <label for="kebab">Kebab</label><br>
+                         <input type="radio" id="mihoen" name="food" value="mihoen">
+                         <label for="mihoen">Mihoen</label><br>
+                         <input type="radio" id="cheese" name="food" value="cheese">
+                         <label for="cheese">cheese</label><br>
+                         <input type="radio" id="chicken" name="food" value="chicken">
+                         <label for="chicken">chicken</label><br>
+                         <input type="radio" id="lasagna" name="food" value="lasagna">
+                         <label for="lasagna">lasagna</label><br><br>
+                         <input type="submit" value="Click after chosing">
+                     </form>
+                    </div>
+                </div>
+               </div>
         </div>
         <div class="css-content">
             <div class="css-header"><h1>Different CSS colors</h1></div>
@@ -113,9 +154,12 @@
                 <div class="blue"><strong>color: rgb(21, 21, 247)</strong></div>
               </div>
           </div>
-          <div class="font-sizes">
+          <div class="css-header">
             <h1>font sizes</h1>
-          </div>
+            </div>
+            <div id="font-sizes">
+                <p>You can edit many font sizes in css</p>
+            </div>
         </div>
     </div>
     
