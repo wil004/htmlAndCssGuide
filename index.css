@@ -1,10 +1,11 @@
 body {
     text-align: center;
-    background-color: rgb(255, 0, 157);
+    background-color:  rgb(228, 70, 167, 0.8);
 }
 
 #headerr {
     border: solid 5px midnightblue;
+    background-color: gray;
 }
 
 
@@ -18,7 +19,7 @@ body {
 .guides {
     display: flex;
     justify-content: center;
-    background-color: gray;
+    margin-bottom: 40px;
 }
 
 .htmlguide {
@@ -32,9 +33,9 @@ body {
 
 .smalltitles {
     display: inline-flex;
-    margin-left: 50px;
     background-color: rgb(228, 70, 167);
-    margin-right: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -53,7 +54,8 @@ body {
     align-items: center;
 }
 
-ul {
+.htmlguide ul,
+.cssguide ul {
     text-decoration: none;
     list-style-type: none;
     margin: 0;
@@ -61,17 +63,251 @@ ul {
 }
 
 .guides li h2{
+    font-size: 28px;
 margin-top: 5px;
 margin-bottom: 5px;
 }
 
-.guides li {
-    margin-bottom: 10px;
-}
 
 .guides li a{
     color: midnightblue;
     opacity: 0.7;
     width: 250px;
     font-weight: bold;
+    font-size: 22px;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.html-content {
+    display: inline-flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    align-content: center;
+}
+
+.html-content .html-header {
+    background-color:  rgb(228, 70, 167, 0.8);
+    height: 75px;
+    color: white;
+}
+
+#Text-styles .mainh1 {
+    background-color: rgb(149, 209, 149);
+    height: 40px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#Text-styles {
+    height: 800px;
+    background-color: rgba(94, 204, 255, 0.6);
+    border-right: solid 1px black;
+}
+
+ .dataInTextStyles {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .headertypes {
+     direction: column;
+     border: solid 2px black;
+     display: inline-flex;
+     flex-direction: column;
+     width: 150px;
+     height: 460px;
+     background-color: rgb(149, 209, 149);
+ }
+
+ .sti {
+     border: solid 2px black;
+     display: inline-flex;
+     flex-direction: column;
+     width: 150px;
+     height: 460px;
+     background-color: rgb(149, 209, 149);
+ }
+
+ .stiBigger {
+     font-size: 22px;
+     display: inline-flex;
+     flex-direction: column;
+ }
+
+ .lists {
+     display: inline-flex;
+     flex-direction: column;
+     border: solid 2px black;
+     width: 150px;
+     background-color: rgb(149, 209, 149);
+ }
+
+
+ .css-content {
+    display: inline-flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.css-content .css-header {
+    background-color:  rgb(228, 70, 167, 0.8);
+    height: 75px;
+    color: white;
+    width: 100%;
+}
+
+#colors {
+    height: 150px;
+}
+
+#colors .mainh1 {
+    background-color: rgb(149, 209, 149);
+    height: 40px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#colors, 
+.css-content .ninecolors {
+    width: 100%;
+    background-color: rgba(94, 204, 255, 0.6);
+    border-left: 1px;
+}
+
+ .ninecolors{
+     display: flex;
+     height: 650px;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+
+ .normalcolors {
+     display: inline-flex;
+     width: 95%;
+     height: 120px;
+     border: solid 1px black;
+     justify-content: space-around;
+     align-items: center;
+     background-color: white;
+ }
+ 
+ .hslcolors {
+     display: inline-flex;
+     width: 95%;
+     height: 120px;
+     border: solid 1px black;
+     justify-content: space-around;
+     align-items: center;
+     background-color: white;
+ }
+
+ .rgbcolors {
+    display: inline-flex;
+    width: 95%;
+    height: 120px;
+    border: solid 1px black;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+ }
+
+ .normalcolors .green {
+     display: inline-flex;
+     width: 100px;
+     height: 100px;
+     background-color: green;
+     justify-content: center;
+     align-items: center;
+     font-size: 22px;
+ }
+
+ .normalcolors .red {
+     display: inline-flex;
+     width: 100px;
+     height: 100px;
+     background-color: red;
+     justify-content: center;
+     align-items: center;
+     font-size: 22px;
+ }
+
+ .normalcolors .blue {
+     display: inline-flex;
+     width: 100px;
+     height: 100px;
+     background-color: blue;
+     justify-content: center;
+     align-items: center;
+     font-size: 22px;
+ }
+
+ .hslcolors .green {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    background-color: hsla(110, 70%, 30%);
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.hslcolors .red {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    background-color: hsla(0, 100%, 50%);
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.hslcolors .blue {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    background-color: hsla(180, 80%, 20%);
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.rgbcolors .green {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(6, 95, 6);
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.rgbcolors .red {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(240, 11, 11);
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.rgbcolors .blue {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 21, 247);
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
 }
